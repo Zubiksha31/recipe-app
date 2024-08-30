@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="input.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="cookieeight.css" />
+    <link rel="stylesheet" href="script.js" />
+  </head>
+  <body class="z-0">
+    <div class="cookie flex justify-center">
+      <div>
+        <div
+          class="flex justify-center m-6 w-[900px] h-[300px] rounded-3xl gap-4"
+        ></div>
+      </div>
+    </div>
+    <div class="flex justify-center">
+      <h1 class="text-3xl text-amber-900 font-bold m-6">
+        Lemon Cookie
+      </h1>
+    </div>
+
+    <div>
+      <div class="flex justify-center items-center mx-24">
+        <h1 class="text-pretty font-bold text-center text-black text-[22px]">
+          "Do you often feel hungry between mealtimes? We sure do! These
+          <a style="color: yellowgreen">Lemon Cookie</a> are
+          phenomenal for these times. You'll see soon enough!"
+        </h1>
+      </div>
+    </div>
+
+    <div class="tabContainer w-[100%] h-[350px]">
+      <div class="buttonContainer h-[15%] flex justify-center my-12 gap-4">
+        <button
+          onclick="showPannel(0,'#f44336')"
+          class="w-[25%] h-[100%] float-left border-none outline-none rounded-3xl cursor-pointer p[10px] text-[15px] bg-purple-300 hover:bg-green-700 font-bold"
+        >
+          Ingredients
+        </button>
+        <button
+          onclick="showPannel(1,'#f44336')"
+          class="w-[25%] h-[100%] float-left border-none outline-none rounded-3xl cursor-pointer p[10px] text-[15px] bg-purple-300 hover:bg-green-700 font-bold"
+        >
+          Instructions
+        </button>
+      </div>
+      <div class="border box-border rounded-2xl">
+        <ol class="mx-80 text-[16px] font-medium">
+          <li class="mb-4">
+            1.Zest the orange peel and set aside.
+          </li>
+          <li class="mb-4">
+            2. Mix the coconut flour, oat flour, and yeast in a bowl.
+          </li>
+          <li class="mb-4">3. Add the coconut oil, orange zest, eggs, and plant-based milk and mix until you reach a smooth batter.
+        </li>
+        <li class="mb-4">4. Divide into two mugs and heat in the microwave for two and a half minutes. Test that the bottom is cooked thoroughly, if not, place it back into the microwave for one more minute.
+        </li>
+        <li class="mb-4">5. You can serve with more orange zest on top and a bit of grated chocolate.</li>
+        </ol>
+      </div>
+    </div>
+  </body>
+</html>
